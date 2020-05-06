@@ -1,8 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Header from '../header';
+import Routing from '../routing';
 
-// Functional Component orneği.Birde class componentler var.
-const Root = () => <Header></Header>  // bu yazma sekline JSX denir.
+// Functional Component orneği.Birde class componentler var. // bu yazma sekline JSX denir.
+const Root = () =>
+    <div className="ui container">
+        <Header />
+        <Routing />
+    </div>
 
 export default Root;

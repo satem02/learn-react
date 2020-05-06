@@ -1,25 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import MenuContainer from '../menu-container'
+import MenuItem from '../menu-container/components/menu-item'
+import MenuRightContainer from '../menu-container/components/right-container'
+import SearchBox from '../menu-container/components/search-box'
+import AuthControl from '../menu-container/components/auth-control'
 
 // Functional Component orneği.Birde class componentler var.
-const Header = () => {
-
-    let logoutButtonText = "Logout";
-
-    return (<div className="ui secondary menu">
-        <a className="active item">Home</a>
-        <a className="item">Messages</a>
-        <a className="item">Friends</a>
-        <div className="right menu">
-            <div className="item">
-                <div className="ui icon input">
-                    <input type="text" placeholder="Search..." />
-                    <i aria-hidden="true" className="search icon"></i>
-                </div>
-            </div>
-            <a className="item" style={{ backgroundColor: 'orange' }} >{logoutButtonText}</a>
-        </div>
-    </div>);
-}
+const Header = () => (
+    <MenuContainer>
+        <MenuItem url="/">Dashboard</MenuItem>
+        <MenuItem url="/category">Category Management</MenuItem>
+        <MenuItem url="/unit">Unit Management</MenuItem>
+        <MenuRightContainer>
+            <SearchBox/>
+        </MenuRightContainer>
+        <AuthControl isAuthenticated={false}/>
+    </MenuContainer>)
 
 export default Header;

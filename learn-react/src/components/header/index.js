@@ -14,7 +14,7 @@ const Header = () =>
                     <i aria-hidden="true" className="search icon"></i>
                 </div>
             </div>
-            <a className="item">Logout</a>
+            <a className="item" style={{backgroundColor:'orange'}} >Logout</a>
         </div>
     </div>;
 

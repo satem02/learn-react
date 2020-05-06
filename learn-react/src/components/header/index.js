@@ -12,6 +12,7 @@ const Header = () => (
         <MenuItem url="/category">Category Management</MenuItem>
         <MenuItem url="/unit">Unit Management</MenuItem>
         <MenuItem url="/people">People Management</MenuItem>
+        <MenuItem url="/post">Posts</MenuItem>
         <MenuRightContainer>
             <SearchBox/>
         </MenuRightContainer>

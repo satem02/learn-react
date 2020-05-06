@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Header from '../header';
 
-// Functional Component orneği.Birde Class componentler var.
-const Root =  () => <div> Hello </div>;
+// Functional Component orneği.Birde class componentler var.
+const Root = () => <Header></Header>
 
 export default Root;

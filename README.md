@@ -8,4 +8,5 @@
 es 6 da yazılanları es5 e çevirir
 
 ### WEBPACK
-Dependcy graf (image,css,js vs.) çıkarır ve ona göre yükler. (Dinamik module yuklenmesi.)
+- Dependcy graf (image,css,js vs.) çıkarır ve ona göre yükler. (Dinamik module yuklenmesi.)
+- uygulama webpeck üzerinde çalışır.

@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Functional Component orneği.Birde class componentler var.
-const Header = () =>
-    <div className="ui secondary menu">
+const Header = () => {
+
+    let logoutButtonText = "Logout";
+
+    return (<div className="ui secondary menu">
         <a className="active item">Home</a>
         <a className="item">Messages</a>
         <a className="item">Friends</a>
@@ -14,8 +17,9 @@ const Header = () =>
                     <i aria-hidden="true" className="search icon"></i>
                 </div>
             </div>
-            <a className="item" style={{backgroundColor:'orange'}} >Logout</a>
+            <a className="item" style={{ backgroundColor: 'orange' }} >{logoutButtonText}</a>
         </div>
-    </div>;
+    </div>);
+}
 
 export default Header;

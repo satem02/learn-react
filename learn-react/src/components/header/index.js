@@ -11,6 +11,7 @@ const Header = () => (
         <MenuItem url="/">Dashboard</MenuItem>
         <MenuItem url="/category">Category Management</MenuItem>
         <MenuItem url="/unit">Unit Management</MenuItem>
+        <MenuItem url="/people">People Management</MenuItem>
         <MenuRightContainer>
             <SearchBox/>
         </MenuRightContainer>

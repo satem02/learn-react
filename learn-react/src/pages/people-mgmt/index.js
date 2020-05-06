@@ -1,5 +1,5 @@
 import React from 'react';
-import Peoples from '../../components/peoples';
+import Peoples from './components/peoples';
 
 const PeopleManagement = () => <Peoples cardCount={3} />
 

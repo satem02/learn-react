@@ -8,6 +8,7 @@ const CategoryManagement = React.lazy(() => import("../../pages/category-mgmt"))
 const UnitManagement = React.lazy(() => import("../../pages/unit-mgmt"));
 const PeopleManagement = React.lazy(() => import("../../pages/people-mgmt"));
 const Posts = React.lazy(() => import("../../pages/posts"));
+const ErrorManagement = React.lazy(() => import("../../pages/error-mgmt"));
 
 // FUNCTIONAL COMPONENT
 const Routing = () => (
@@ -17,6 +18,7 @@ const Routing = () => (
         <Route path="/unit" component={UnitManagement} />
         <Route path="/people" component={PeopleManagement} />
         <Route path="/post" component={Posts} />
+        <Route path="/error" component={ErrorManagement} />
     </Suspense>
 )
 

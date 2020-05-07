@@ -13,6 +13,7 @@ const Header = () => (
         <MenuItem url="/unit">Unit Management</MenuItem>
         <MenuItem url="/people">People Management</MenuItem>
         <MenuItem url="/post">Posts</MenuItem>
+        <MenuItem url="/error">Error</MenuItem>
         <MenuRightContainer>
             <SearchBox/>
         </MenuRightContainer>

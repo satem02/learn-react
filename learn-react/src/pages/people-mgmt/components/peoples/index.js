@@ -39,6 +39,7 @@ class Peoples extends React.Component { // CLASS COMPONENT
         if (this.state.isShowing) {
             for (let i = 1; i <= this.props.cardCount; i++) {
                 cards.push(<Card
+                    key={i}
                     avatar={faker.image.avatar()}
                     firstName={faker.name.firstName()}
                     lastName={faker.name.lastName()}

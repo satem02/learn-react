@@ -13,7 +13,7 @@ const Rows = props => {
 
 const RenderRow = (props) => {
     return props.keys.map((key, index) => {
-        return <td key={props.data[key]}>{props.data[key]}</td>
+        return <td key={index}>{props.data[key]}</td>
     })
 }
 

@@ -29,8 +29,8 @@ export default class List extends React.Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.data.map(row => (
-                            <tr>
+                        {this.state.data.map((row,index) => (
+                            <tr key={index}>
                                 <td>{row.name}</td>
                                 <td>{row.email}</td>
                                 <td>{row.body}</td>

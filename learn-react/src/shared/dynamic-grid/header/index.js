@@ -5,8 +5,8 @@ const Header = props => {
     var keys = props.Keys;
 
     return keys.map((key, index) => {
-        return <th key={key}>{key.toUpperCase()}</th>
+        return <th key={index}>{key.toUpperCase()}</th>
     });
-    
+
 }
 export default Header;

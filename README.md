@@ -6,6 +6,7 @@
 6 - Add faker api 'npm install faker'
 7 - Add react-router-dom 'npm install react-router-dom'
 8 - Add axios 'npm install axios'
+9 - Add redux 'npm install redux react-redux'
 
 
 ### BABEL

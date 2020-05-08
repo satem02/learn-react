@@ -1,13 +1,13 @@
-1 - NodeJs yüklernir.
-2 - NPM yüklenir. 
-3 - İlk olarak react projesi için bu kurulu npm install -g create-react-app
-4 - "npx create-react-app 'proje adi' "
-5 - Add semantic ui '    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />'
-6 - Add faker api 'npm install faker'
-7 - Add react-router-dom 'npm install react-router-dom'
-8 - Add axios 'npm install axios'
-9 - Add redux 'npm install redux react-redux'
-9 - Add saga examples projects
+1 - NodeJs yüklernir.  
+2 - NPM yüklenir.    
+3 - İlk olarak react projesi için bu kurulu npm install -g create-react-app   
+4 - "npx create-react-app 'proje adi' "    
+5 - Add semantic ui '    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" />'      
+6 - Add faker api 'npm install faker'   
+7 - Add react-router-dom 'npm install react-router-dom'   
+8 - Add axios 'npm install axios'   
+9 - Add redux 'npm install redux react-redux'   
+9 - Add saga examples projects   
 
 
 ### BABEL
